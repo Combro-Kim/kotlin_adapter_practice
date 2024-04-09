@@ -15,6 +15,12 @@ class DataSource {
     fun getDonutList() : List<Donut>{
         return donutList()
     }
+
+/*    fun getDonutForId(id:Long) : Donut{
+        donutList().let {
+            return it.first{it.id==id}
+        }
+    }*/
 }
 
 
