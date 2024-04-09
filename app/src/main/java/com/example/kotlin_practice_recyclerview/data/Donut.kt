@@ -6,7 +6,6 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Donut(
-    val id : Long,
     val name : String,
     val price : String,
     @DrawableRes //drawalbe 리소스 참조
