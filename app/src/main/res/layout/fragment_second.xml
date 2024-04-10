@@ -9,8 +9,7 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/textViewUserId"
-        android:layout_width="match_parent
-"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
