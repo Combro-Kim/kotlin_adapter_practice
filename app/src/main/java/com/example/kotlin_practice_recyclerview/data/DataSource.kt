@@ -5,7 +5,7 @@ import com.example.kotlin_practice_recyclerview.data.donutList
 
 class DataSource {
     companion object {
-        private var INSTANCE : DataSource?=null
+        private var INSTANCE: DataSource? = null
         fun getDataSource(): DataSource {
             return synchronized(DataSource::class) {
                 val newInstance = INSTANCE ?: DataSource()
@@ -14,11 +14,11 @@ class DataSource {
             }
         }
     }
-    fun getDonutList() : List<Donut>{
+
+    fun getDonutList(): List<Donut> {
         return donutList()
     }
 }
-
 
 
 /* synchronized ?
