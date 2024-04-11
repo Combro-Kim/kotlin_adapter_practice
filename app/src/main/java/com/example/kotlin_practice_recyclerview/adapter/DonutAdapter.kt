@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.kotlin_practice_recyclerview.databinding.ItemDonutBinding
 import com.example.standard_base2.data.Donut
 
-class DonutAdapter(private val donut: MutableList<Donut>) : RecyclerView.Adapter<DonutAdapter.Holder>() {
+class DonutAdapter(val donut: MutableList<Donut>) : RecyclerView.Adapter<DonutAdapter.Holder>() {
 
     interface ItemClick {
         fun onClick(view : View, position : Int)
